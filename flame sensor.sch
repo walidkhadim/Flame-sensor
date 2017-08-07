@@ -315,95 +315,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="opto-trans-siemens">
-<description>&lt;b&gt;Siemens Opto Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="BPX81">
-<description>&lt;B&gt;PHOTO TRANSISTOR&lt;/B&gt;</description>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.889" x2="1.27" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="0" y1="1.27" x2="0.9917" y2="0.7934" width="0.1524" layer="21" curve="-51.33923"/>
-<wire x1="-0.9917" y1="0.7934" x2="0" y2="1.27" width="0.1524" layer="21" curve="-51.33923"/>
-<wire x1="0" y1="-1.27" x2="0.9917" y2="-0.7934" width="0.1524" layer="21" curve="51.33923"/>
-<wire x1="-0.9917" y1="-0.7934" x2="0" y2="-1.27" width="0.1524" layer="21" curve="51.33923"/>
-<wire x1="0.9558" y1="-0.8363" x2="1.27" y2="0" width="0.1524" layer="51" curve="41.185419"/>
-<wire x1="0.9756" y1="0.813" x2="1.2699" y2="0" width="0.1524" layer="51" curve="-39.806332"/>
-<wire x1="-1.27" y1="0" x2="-0.9643" y2="-0.8265" width="0.1524" layer="51" curve="40.600331"/>
-<wire x1="-1.27" y1="0" x2="-0.9643" y2="0.8265" width="0.1524" layer="51" curve="-40.600331"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0.889" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-0.508" y1="0" x2="0" y2="0.508" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-0.508" x2="0.508" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="-0.889" x2="0.889" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="1.27" y1="-0.635" x2="1.524" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.635" x2="1.27" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="-0.635" x2="1.651" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="0.762" x2="1.524" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0.762" x2="1.524" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0.508" x2="1.27" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0.508" x2="1.524" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="-0.635" x2="1.651" y2="-0.635" width="0.1524" layer="51"/>
-<pad name="E" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="C" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-1.8034" y="1.6002" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.778" y="-2.8702" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="OT-NO">
-<wire x1="-3.048" y1="-2.54" x2="-1.27" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-0.762" x2="-2.413" y2="-1.143" width="0.1524" layer="94"/>
-<wire x1="-2.413" y1="-1.143" x2="-1.651" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.651" y1="-1.905" x2="-1.27" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="1.143" x2="-2.286" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="0.762" x2="-1.524" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.143" y2="1.143" width="0.1524" layer="94"/>
-<wire x1="-2.921" y1="-0.635" x2="-1.143" y2="1.143" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.016" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.286" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.286" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.778" x2="1.778" y2="-1.016" width="0.1524" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BPX81" prefix="T">
-<description>&lt;B&gt;PHOTO TRANSISTOR&lt;/B&gt;</description>
-<gates>
-<gate name="1" symbol="OT-NO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BPX81">
-<connects>
-<connect gate="1" pin="C" pad="C"/>
-<connect gate="1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Resistors">
 <description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
 This library contains resistors. Reference designator:R. 
@@ -2058,6 +1969,57 @@ Silk outline shows header location.
 </deviceset>
 </devicesets>
 </library>
+<library name="template(1)">
+<packages>
+<package name="2P-2.54-5MM">
+<pad name="1" x="-1.27" y="0" drill="0.889" diameter="1.651" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="0.889" diameter="1.651"/>
+<text x="-2.54" y="3.81" size="1.27" layer="27" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0.127" radius="2.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="2.5" y2="-1.5" width="0.127" layer="21" curve="149.036243"/>
+<wire x1="-3" y1="0" x2="2.5" y2="1.5" width="0.127" layer="21" curve="-158.198591"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="YG1006">
+<circle x="0" y="0" radius="9.1581" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.175" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="7.62" width="0.1524" layer="94"/>
+<pin name="E" x="3.81" y="-11.43" length="short" rot="R90"/>
+<pin name="C" x="3.81" y="11.43" length="short" rot="R270"/>
+<wire x1="3.81" y1="8.89" x2="3.81" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="-8.89" width="0.1524" layer="94"/>
+<text x="-3.81" y="10.16" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="6.35" y="10.16" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="YG1006" prefix="U" uservalue="yes">
+<description>YG1006 is a high speed and high sensitive NPN siicon phototransistor in a atandard 5mm package</description>
+<gates>
+<gate name="G$1" symbol="YG1006" x="0" y="0"/>
+</gates>
+<devices>
+<device name="'YG1006'" package="2P-2.54-5MM">
+<connects>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2071,7 +2033,6 @@ Silk outline shows header location.
 <part name="U$1" library="SparkFun-Retired" deviceset="LM393" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="T1" library="opto-trans-siemens" deviceset="BPX81" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="0.05OHM" device="-0603-1/5W-1%" value="1K"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="0.05OHM" device="-0603-1/5W-1%" value="10K"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="0.05OHM" device="-0603-1/5W-1%" value="1K"/>
@@ -2083,6 +2044,7 @@ Silk outline shows header location.
 <part name="C3" library="SparkFun-Capacitors" deviceset="2.2UF" device="-1206-50V-10%" value="104nF"/>
 <part name="VR1" library="SparkFun-Resistors" deviceset="TRIMPOT" device="-SMD-5MM-CLOSED-1/4W-20%" value="10k"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
+<part name="U1" library="template(1)" deviceset="YG1006" device="'YG1006'" value="YG1006"/>
 </parts>
 <sheets>
 <sheet>
@@ -2091,8 +2053,7 @@ Silk outline shows header location.
 <instances>
 <instance part="U$1" gate="G1" x="68.58" y="55.88"/>
 <instance part="SUPPLY1" gate="G$1" x="147.32" y="73.66"/>
-<instance part="GND1" gate="1" x="68.58" y="40.64"/>
-<instance part="T1" gate="1" x="27.94" y="48.26" rot="R180"/>
+<instance part="GND1" gate="1" x="68.58" y="27.94"/>
 <instance part="R1" gate="G$1" x="101.6" y="66.04" rot="R180"/>
 <instance part="R2" gate="G$1" x="101.6" y="55.88" rot="R180"/>
 <instance part="R3" gate="G$1" x="68.58" y="83.82" rot="R90"/>
@@ -2100,10 +2061,11 @@ Silk outline shows header location.
 <instance part="D1" gate="G$1" x="119.38" y="66.04" rot="R270"/>
 <instance part="D2" gate="G$1" x="68.58" y="101.6" rot="R180"/>
 <instance part="C1" gate="G$1" x="60.96" y="83.82" rot="R180"/>
-<instance part="C2" gate="G$1" x="50.8" y="45.72"/>
+<instance part="C2" gate="G$1" x="50.8" y="33.02"/>
 <instance part="C3" gate="G$1" x="7.62" y="50.8"/>
 <instance part="VR1" gate="R?" x="40.64" y="58.42"/>
 <instance part="J1" gate="G$1" x="154.94" y="106.68" rot="R180"/>
+<instance part="U1" gate="G$1" x="21.59" y="41.91"/>
 </instances>
 <busses>
 </busses>
@@ -2187,22 +2149,22 @@ Silk outline shows header location.
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="R?" pin="CW"/>
-<wire x1="40.64" y1="53.34" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<junction x="50.8" y="43.18"/>
-<pinref part="T1" gate="1" pin="C"/>
-<wire x1="25.4" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
-<junction x="40.64" y="43.18"/>
+<wire x1="40.64" y1="53.34" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
+<junction x="50.8" y="30.48"/>
+<junction x="40.64" y="30.48"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="48.26" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="43.18"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G1" pin="V-"/>
-<wire x1="68.58" y1="48.26" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
-<junction x="68.58" y="43.18"/>
+<wire x1="25.4" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="48.26" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
+<junction x="68.58" y="30.48"/>
+<pinref part="U1" gate="G$1" pin="E"/>
+<junction x="25.4" y="30.48"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -2215,7 +2177,7 @@ Silk outline shows header location.
 <pinref part="U$1" gate="G1" pin="-IN"/>
 <wire x1="63.5" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="58.42" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="R?" pin="WIPER"/>
 <wire x1="50.8" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <junction x="50.8" y="58.42"/>
@@ -2224,15 +2186,15 @@ Silk outline shows header location.
 <net name="A0" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="T1" gate="1" pin="E"/>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
 <wire x1="12.7" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="55.88" x2="12.7" y2="60.96" width="0.1524" layer="91"/>
 <junction x="12.7" y="55.88"/>
 <label x="12.7" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="C"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G1" pin="+IN"/>
